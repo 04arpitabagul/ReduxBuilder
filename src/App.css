@@ -1,0 +1,66 @@
+/* Base Reset & Layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.light_theme {
+  background-color: #fdfdfd;
+  color: #333;
+  min-height: 100vh;
+  padding: 50px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.dark_theme {
+  background-color: #121212;
+  color: #f9f9f9;
+  min-height: 100vh;
+  padding: 50px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Counter Display */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.2s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Theme Buttons */
+.light_theme button {
+  background-color: #007bff;
+  color: white;
+}
+
+.light_theme button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.dark_theme button {
+  background-color: #ffc107;
+  color: #121212;
+}
+
+.dark_theme button:hover:not(:disabled) {
+  background-color: #e0a800;
+}
