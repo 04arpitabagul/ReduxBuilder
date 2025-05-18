@@ -1,3 +1,6 @@
+<a href="https://drive.google.com/file/d/1RMPMGAveKkcR8VA74JwnuJ_tcqSO-lJf/view?usp=sharing">ReduxBuilder Project Explanation Video</a>
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
